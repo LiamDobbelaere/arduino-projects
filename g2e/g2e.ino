@@ -1,4 +1,5 @@
 #include "pitches.h"
+#include <EEPROM.h>
 
 #define PIEZO_PIN 9
 #define LED_PIN_START 2
@@ -8,17 +9,18 @@ float bpm = 118.0;
 float measureLength = 60.0 / bpm * 4.0;
 float stepLength = measureLength / 16.0;
 unsigned short song[] = {
-  NOTE_D6, 6, 0b0000001,
-  NOTE_F6, 6, 0b0000011,
-  NOTE_A6, 6, 0b0000111,
-  NOTE_D7, 20, 0b0001111,
-  NOTE_D7, 6, 0b0001111,
-  NOTE_A6, 6, 0b0000111,
-  NOTE_F6, 6, 0b0000011,
-  NOTE_D6, 80, 0b0000001,
-  NOTE_WAIT, 20, 0b0000000,
+  NOTE_WAIT, 1, 0b0000000,   // 0
+  NOTE_D6, 6, 0b0000001,  // 3
+  NOTE_F6, 6, 0b0000011,  // 6
+  NOTE_A6, 6, 0b0000111, // 9
+  NOTE_D7, 20, 0b0001111, // 12
+  NOTE_D7, 6, 0b0001111, // 15
+  NOTE_A6, 6, 0b0000111, // 18
+  NOTE_F6, 6, 0b0000011, // 21
+  NOTE_D6, 80, 0b0000001, // 24
+  NOTE_WAIT, 20, 0b0000000, // 27
 
-  NOTE_D6, 6, 0b1000000,
+  NOTE_D6, 6, 0b1000000, // 30
   NOTE_F6, 6, 0b1100000,
   NOTE_A6, 6, 0b1110000,
   NOTE_D7, 20, 0b1111000,
@@ -292,52 +294,94 @@ unsigned short song[] = {
   NOTE_WAIT, 1, 0b0000000,
 };
 
-// TODO: make LEDs dance along with the song
-
 int songLength = sizeof(song) / sizeof(song[0]);
+boolean reverse = false;
 
 void setup() {
   randomSeed(analogRead(A0));
-  /*delay(1000000);*/
-  
+
+  pinMode(13, OUTPUT);
+  reverse = EEPROM.read(0) > 0;
+  if (reverse) {
+    EEPROM.write(0, 0);
+    digitalWrite(13, HIGH);
+  }
+    
   for (int ledPin = LED_PIN_START; ledPin <= LED_PIN_END; ledPin++) {
     pinMode(ledPin, OUTPUT);
     digitalWrite(ledPin, LOW);
   }
   
-  /*
-  for (int ledPin = LED_PIN_START; ledPin <= LED_PIN_END; ledPin++) {
+  
+  /*for (int ledPin = LED_PIN_START; ledPin <= LED_PIN_END; ledPin++) {
     int time = random(500 * (ledPin + 1));
     delay(time);
 
     digitalWrite(ledPin, HIGH);
   }*/
+  delay(3000);
 
   pinMode(PIEZO_PIN, OUTPUT); 
 
-  for (int i = 0; i < songLength; i+=3) {
-    unsigned short noteToPlay = song[i];
-    unsigned short noteDelay = song[i+1];
-    unsigned short ledState = song[i+2];
-
-    for (int ledPin = LED_PIN_START, j = 0; ledPin <= LED_PIN_END; j++, ledPin++) {
-      bool isOn = (ledState >> j) & 1;
-      digitalWrite(ledPin, isOn ? HIGH : LOW);    
+  if (reverse) {
+    for (int i = songLength - 1; i >= 0; i-=3) {
+      unsigned short noteToPlay = song[i-2];
+      unsigned short noteDelay = song[i-1];
+      unsigned short ledState = song[i];
+  
+      for (int ledPin = LED_PIN_START, j = 0; ledPin <= LED_PIN_END; j++, ledPin++) {
+        bool isOn = (ledState >> j) & 1;
+        digitalWrite(ledPin, isOn ? HIGH : LOW);    
+      }
+      
+      float actualNoteDelay = stepLength * ((float) noteDelay / 10.0) * 1000.0;
+      if (noteToPlay == 0) {
+        noTone(PIEZO_PIN);   
+        break;
+      }
+  
+      if (noteToPlay != -1) {
+        tone(PIEZO_PIN, noteToPlay);
+      } else {
+        noTone(PIEZO_PIN);  
+      }
+  
+      delay(actualNoteDelay);
     }
-    
-    float actualNoteDelay = stepLength * ((float) noteDelay / 10.0) * 1000.0;
-    if (noteToPlay == 0) {
-      noTone(PIEZO_PIN);   
-      break;
-    }
+  } else {
+    for (int i = 0; i < songLength; i+=3) {
+      unsigned short noteToPlay = song[i];
+      unsigned short noteDelay = song[i+1];
+      unsigned short ledState = song[i+2];
 
-    if (noteToPlay != -1) {
-      tone(PIEZO_PIN, noteToPlay);
-    } else {
-      noTone(PIEZO_PIN);  
-    }
+      if (i == 24) {   // exact triplet index for that note event
+        digitalWrite(13, HIGH);
+        EEPROM.update(0, 1);
+      }
+      if (i == 30) {
+      digitalWrite(13, LOW);
+        EEPROM.update(0, 0);
+      }
 
-    delay(actualNoteDelay);
+      for (int ledPin = LED_PIN_START, j = 0; ledPin <= LED_PIN_END; j++, ledPin++) {
+        bool isOn = (ledState >> j) & 1;
+        digitalWrite(ledPin, isOn ? HIGH : LOW);    
+      }
+      
+      float actualNoteDelay = stepLength * ((float) noteDelay / 10.0) * 1000.0;
+      if (noteToPlay == 0) {
+        noTone(PIEZO_PIN);   
+        break;
+      }
+  
+      if (noteToPlay != -1) {
+        tone(PIEZO_PIN, noteToPlay);
+      } else {
+        noTone(PIEZO_PIN);  
+      }
+  
+      delay(actualNoteDelay);
+    }    
   }
 
   noTone(PIEZO_PIN);
