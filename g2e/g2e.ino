@@ -259,7 +259,7 @@ unsigned short song[] = {
   NOTE_A4, 20, 0b0000100,
   NOTE_F5, 20, 0b1000000,
   NOTE_D5, 60, 0b0000001,
-  NOTE_WAIT, 4, 0b0000000,
+  NOTE_WAIT, 40, 0b0000000,
 
   NOTE_D5, 20, 0b1010101,
   NOTE_F5, 20, 0b0101010,
@@ -289,6 +289,7 @@ unsigned short song[] = {
   NOTE_A4, 20, 0b0000100,
   NOTE_F5, 20, 0b1000000,
   NOTE_D5, 60, 0b0000001,
+  NOTE_WAIT, 1, 0b0000000,
 };
 
 // TODO: make LEDs dance along with the song
