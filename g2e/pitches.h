@@ -1,4 +1,4 @@
-#define NOTE_WAIT -1
+#define NOTE_WAIT 65535
 #define NOTE_B0  31
 #define NOTE_C1  33
 #define NOTE_CS1 35

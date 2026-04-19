@@ -1,5 +1,6 @@
 #include "pitches.h"
 #include <EEPROM.h>
+#include <avr/pgmspace.h>
 
 #define PIEZO_PIN 9
 #define LED_PIN_START 2
@@ -8,7 +9,7 @@
 float bpm = 118.0;
 float measureLength = 60.0 / bpm * 4.0;
 float stepLength = measureLength / 16.0;
-unsigned short song[] = {
+const unsigned short song[] PROGMEM = {
   NOTE_WAIT, 1, 0b0000000,   // 0
   NOTE_D6, 6, 0b0000001,  // 3
   NOTE_F6, 6, 0b0000011,  // 6
@@ -312,22 +313,21 @@ void setup() {
     digitalWrite(ledPin, LOW);
   }
   
-  
-  /*for (int ledPin = LED_PIN_START; ledPin <= LED_PIN_END; ledPin++) {
+  for (int ledPin = LED_PIN_START; ledPin <= LED_PIN_END; ledPin++) {
     int time = random(500 * (ledPin + 1));
     delay(time);
 
     digitalWrite(ledPin, HIGH);
-  }*/
+  }
   delay(3000);
 
   pinMode(PIEZO_PIN, OUTPUT); 
 
   if (reverse) {
-    for (int i = songLength - 1; i >= 0; i-=3) {
-      unsigned short noteToPlay = song[i-2];
-      unsigned short noteDelay = song[i-1];
-      unsigned short ledState = song[i];
+    for (int i = songLength - 1; i >= 2; i-=3) {
+      unsigned short noteToPlay = pgm_read_word(&song[i-2]);
+      unsigned short noteDelay = pgm_read_word(&song[i-1]);
+      unsigned short ledState = pgm_read_word(&song[i]);
   
       for (int ledPin = LED_PIN_START, j = 0; ledPin <= LED_PIN_END; j++, ledPin++) {
         bool isOn = (ledState >> j) & 1;
@@ -340,7 +340,7 @@ void setup() {
         break;
       }
   
-      if (noteToPlay != -1) {
+      if (noteToPlay != 65535) {
         tone(PIEZO_PIN, noteToPlay);
       } else {
         noTone(PIEZO_PIN);  
@@ -350,9 +350,9 @@ void setup() {
     }
   } else {
     for (int i = 0; i < songLength; i+=3) {
-      unsigned short noteToPlay = song[i];
-      unsigned short noteDelay = song[i+1];
-      unsigned short ledState = song[i+2];
+      unsigned short noteToPlay = pgm_read_word(&song[i]);
+      unsigned short noteDelay = pgm_read_word(&song[i+1]);
+      unsigned short ledState = pgm_read_word(&song[i+2]);
 
       if (i == 24) {   // exact triplet index for that note event
         digitalWrite(13, HIGH);
@@ -374,7 +374,7 @@ void setup() {
         break;
       }
   
-      if (noteToPlay != -1) {
+      if (noteToPlay != 65535) {
         tone(PIEZO_PIN, noteToPlay);
       } else {
         noTone(PIEZO_PIN);  
