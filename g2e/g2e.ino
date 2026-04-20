@@ -316,7 +316,6 @@ void setup() {
   for (int ledPin = LED_PIN_START; ledPin <= LED_PIN_END; ledPin++) {
     int time = random(500 * (ledPin + 1));
     delay(time);
-
     digitalWrite(ledPin, HIGH);
   }
   delay(3000);
