@@ -75,7 +75,7 @@ int readMux(int ch) {
   digitalWrite(PIN_MUX_S1, (ch >> 1) & 1);
   digitalWrite(PIN_MUX_S2, (ch >> 2) & 1);
   digitalWrite(PIN_MUX_S3, (ch >> 3) & 1);
-  delayMicroseconds(50);
+  delayMicroseconds(10);
   analogRead(PIN_MUX_SIG);
   analogRead(PIN_MUX_SIG);
   return analogRead(PIN_MUX_SIG);   // 0..1023
@@ -126,6 +126,8 @@ void setup() {
   FastLED.setBrightness(50);
   fill_solid(leds, LED_COUNT, CRGB::White);
   FastLED.show();
+
+  Serial.begin(115200);
 
   delay(500);
   digitalWrite(LED_BUILTIN, false);
