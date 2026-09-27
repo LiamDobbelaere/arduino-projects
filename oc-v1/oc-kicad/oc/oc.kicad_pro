@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -260,7 +260,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|457200|1104900|6c55e223-d9c5-48f9-bf75-b3d0f98acc35|9d61e6a4-94df-4b61-ba55-2acdf13688c3|/0abe4425-22e1-40ce-a5c7-3e2cf774c650|/0abe4425-22e1-40ce-a5c7-3e2cf774c650|/0abe4425-22e1-40ce-a5c7-3e2cf774c650",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -661,7 +666,7 @@
         "uuid": "0abe4425-22e1-40ce-a5c7-3e2cf774c650"
       }
     ],
-    "used_designators": "U1-3,A1-2,X1,SW1-4,JP1-2,#PWR1-26,SELECT1-2,HOME1,B1,Y1,J1,DOWN1,LB1,LEFT1,RB1,RIGHT1,START1,UP1",
+    "used_designators": "U1-3,A1-2,X1,SW1-15,JP1-2,#PWR1-42,Z1,SELECT1-2,HOME1,B1-3,Y1,J1-2,DOWN1,LB1,LEFT1,RB1,RIGHT1,START1,UP1,MUX_BREAKOUT1,WS1-4,C1,D1-4",
     "variants": []
   },
   "sheets": [
