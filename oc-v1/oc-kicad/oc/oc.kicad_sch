@@ -8,7 +8,7 @@
 		(title "OpenController V1")
 		(date "2026-09-27")
 		(rev "1")
-		(company "Liam Swift")
+		(company "Liam Dobbelaere")
 	)
 	(lib_symbols
 		(symbol "MCU_Module:RaspberryPi_Pico_Debug"
@@ -4497,7 +4497,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Module:Maple_Mini"
+		(property "Footprint" "mux_breakout:MuxBreakout"
 			(at 43.18 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8578,7 +8578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_SMD_HandSolder"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
 			(at 50.8 109.22 0)
 			(hide yes)
 			(show_name no)
