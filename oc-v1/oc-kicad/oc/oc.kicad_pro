@@ -666,7 +666,7 @@
         "uuid": "0abe4425-22e1-40ce-a5c7-3e2cf774c650"
       }
     ],
-    "used_designators": "U1-3,A1-2,JP1-2,SW1-15,X1,#PWR1-42,Z1,SELECT1-2,HOME1,B1-3,Y1,J1-2,DOWN1,LB1,LEFT1,RB1,RIGHT1,START1,UP1,MUX_BREAKOUT1,WS1-4,C1,D1-4",
+    "used_designators": "U1-3,A1-2,JP1-2,SW1-15,X1,#PWR1-57,Z1,SELECT1-2,HOME1,B1-3,Y1,J1-3,DOWN1,LB1,LEFT1,RB1,RIGHT1,START1,UP1,MUX_BREAKOUT1,WS1-4,C1,D1-4",
     "variants": []
   },
   "sheets": [
