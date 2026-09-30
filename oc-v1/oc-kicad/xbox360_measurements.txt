@@ -1,0 +1,10 @@
+center left joystick to center dpad = 2cm hor, 3.5cm diag, 2.8cm ver
+center dpad to center right joystick = 4.2cm hor
+center joystick to center back button = 2.5cm
+center back button to center home button = 1.4cm
+center home button to center start button = 1.4cm
+center start button to center x button = 1.4cm
+center x button to center b button = 2.2cm
+center x button to center y button = 1cm ver
+center right joystick to center c button = 2.5cm
+center c button to center z button = 2cm diag, 1.4cm hor and 1.4cm ver

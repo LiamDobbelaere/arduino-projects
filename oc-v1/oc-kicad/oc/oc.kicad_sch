@@ -3907,7 +3907,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 168.91 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4145,7 +4145,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 101.6 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -5076,7 +5076,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -5548,7 +5548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 189.23 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6190,7 +6190,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 232.41 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6743,7 +6743,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 217.17 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -6980,7 +6980,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 199.39 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -7139,7 +7139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 199.39 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7376,7 +7376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8020,7 +8020,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 146.05 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 121.92 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8494,7 +8494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 124.46 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9219,7 +9219,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 209.55 60.96 0)
 			(hide yes)
 			(show_name no)
