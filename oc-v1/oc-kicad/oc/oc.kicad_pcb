@@ -129,13 +129,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "00a147f9-47ac-4e4a-a385-a8ef071b7cf1")
-		(at 85.75 -2.25)
+		(at 121.75 -1.5)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW13"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "a5266356-2a5d-406a-8867-94dc76d1b0d1")
+			(uuid "c653e1e4-fec1-41dd-b34d-47b8f208bdcd")
 			(effects
 				(font
 					(size 1 1)
@@ -146,7 +146,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "4f28bca7-8c93-46a8-9879-08638e3d0819")
+			(uuid "9b676f19-e708-4bce-b275-470bcb120bf5")
 			(effects
 				(font
 					(size 1 1)
@@ -159,7 +159,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "be9ccc66-c892-49da-a0a0-506a178e51ed")
+			(uuid "539760d1-aa70-4178-baf8-340d3744bb98")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -172,7 +172,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2e8834cb-46df-4b35-ab56-077478b910c6")
+			(uuid "2e8acd9a-eb86-4b23-8f5f-ee1302da8725")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,13 +837,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "14d8b4e1-f944-4ae9-8f92-e67874f0fbf2")
-		(at 97.75 15.75)
+		(at 133.75 16.5)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW15"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "562dd67b-98f8-4730-b6dd-b2a7f072fe7d")
+			(uuid "80ffb7db-5d98-4a75-aedc-6ad165a53005")
 			(effects
 				(font
 					(size 1 1)
@@ -854,7 +854,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "c919901e-dcdd-4683-b921-ff65d4030ed9")
+			(uuid "d007aa74-3f26-4eea-9428-2892c50c5bf3")
 			(effects
 				(font
 					(size 1 1)
@@ -867,7 +867,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "556af85d-1ebd-4166-81ae-1ca512c0221c")
+			(uuid "dec030df-9d00-44f3-aba2-cffa6263a2ed")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -880,7 +880,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45528c7c-385b-4fb2-93d6-cc182f9a8b69")
+			(uuid "7491f9de-2ab1-4546-ab1c-242718b08467")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1191,7 +1191,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "1b857b35-8d8f-433a-98e1-a743043bf59e")
-		(at 173.6 75.825)
+		(at -6.25 -27)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW2"
@@ -1437,13 +1437,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "2975d2c6-7469-4ea0-9779-e4a58832134d")
-		(at 49.75 -2.25)
+		(at 85.75 -1.5)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW8"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "0f364b67-affc-41f0-9457-9e0e5baf3a9c")
+			(uuid "e07e3446-08e6-4333-a5fe-2b6be0c1ca57")
 			(effects
 				(font
 					(size 1 1)
@@ -1454,7 +1454,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "a1cfd62b-0bf5-478e-9cca-475cd09ba5f9")
+			(uuid "f8994be2-0c7f-42ea-a1ce-bf4095a78fd4")
 			(effects
 				(font
 					(size 1 1)
@@ -1467,7 +1467,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c8c92f1-4f81-4a55-8e6d-7556324a2108")
+			(uuid "3c951c98-48f0-4a38-847c-90a773443c6b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1480,7 +1480,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5c338d5a-c08d-4c6a-bbff-81923e91e23d")
+			(uuid "86735322-59b3-4ac0-a9b8-0aaaaa62cb10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,13 +1791,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "2fc78ccf-1a2a-457d-91d8-aa8832822fdf")
-		(at 63.75 -2.25)
+		(at 99.75 -1.5)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW9"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "2b23cf64-734e-4902-9b02-aca124c18d5a")
+			(uuid "98a38cc4-158b-48dc-b53e-51e257a48ae2")
 			(effects
 				(font
 					(size 1 1)
@@ -1808,7 +1808,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "b830150b-511e-4b3f-a285-3c4ca0fde03c")
+			(uuid "0a9095cb-0253-4f98-a7b0-f6dd1c31ad50")
 			(effects
 				(font
 					(size 1 1)
@@ -1821,7 +1821,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4d26653f-f7e8-41bd-adc9-0cdac4e5ff63")
+			(uuid "c71a32ce-c033-4a83-81ea-e803e48cbf62")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1834,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1f460f82-d9df-49c3-83c4-f8d0a8915e25")
+			(uuid "442893b5-8972-48b3-b07f-a119b0caaf00")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,13 +2499,13 @@
 	(footprint "adafruit_joystick_v2:JOYSTICK"
 		(layer "F.Cu")
 		(uuid "37d2c0d9-35a2-4b2c-a026-7729520386d6")
-		(at 62 28)
+		(at 98 28.75)
 		(property "Reference" "J2"
 			(at -5.08 5.08 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ec7fa703-2093-4d42-b3d7-fbb5d570a615")
+			(uuid "b8eb738b-6845-4fe2-a024-439113ad2570")
 			(effects
 				(font
 					(size 1.1684 1.1684)
@@ -2519,7 +2519,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e890a68c-0cdd-401b-a072-dd097cfe5165")
+			(uuid "7091189c-e911-4baa-b218-3bb1d14953d8")
 			(effects
 				(font
 					(size 1.1684 1.1684)
@@ -2533,7 +2533,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e111aef-688f-4bbe-b070-abe7755c3704")
+			(uuid "685426b6-7b9e-4ce4-9fe3-41de558fbdfc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2545,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "da1d6f5e-7bd2-4b3d-889d-6565ba7b41a3")
+			(uuid "32d701e3-355a-474d-a5ce-68aa9b80edb8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,13 +2994,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "43259c93-d2c2-4800-8d30-bc458c6931cb")
-		(at 35.75 -2.25)
+		(at 49.75 33.75)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW7"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "fd0fa1fb-289b-4da4-9081-9a36cd2b874d")
+			(uuid "9eeff47b-811c-4c9a-819f-4530a9d54980")
 			(effects
 				(font
 					(size 1 1)
@@ -3011,7 +3011,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "b3ba4e68-042d-4f79-98cf-ae0f516105b6")
+			(uuid "e07569f6-c800-45e0-beb5-b640ae1f5a78")
 			(effects
 				(font
 					(size 1 1)
@@ -3024,7 +3024,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33ced993-bf63-4b2d-b993-2b6fb431ce0a")
+			(uuid "51e4a7b2-afab-4d9f-a733-3ee8ff31db03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3037,7 +3037,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d1e75f03-c234-487e-8a6c-171a09fe3c18")
+			(uuid "b3be923b-c062-4e0c-868a-1c11fddf20ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3702,13 +3702,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "63793ecb-f1f9-49c3-a242-83cfe9af1113")
-		(at 83.75 25.75)
+		(at 119.75 26.5)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW14"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "844c59b5-18ba-4c1e-8d72-c6e995af4a87")
+			(uuid "188b9929-04a1-422a-a188-0b3dd8ea6611")
 			(effects
 				(font
 					(size 1 1)
@@ -3719,7 +3719,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "befe6e91-fd41-4d2d-8a90-68b520517cf9")
+			(uuid "01772d16-d4c3-4b08-aaa5-29608dc07678")
 			(effects
 				(font
 					(size 1 1)
@@ -3732,7 +3732,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cc1b3e4e-2b38-4948-b19d-97a234093650")
+			(uuid "af523950-dfcc-4e27-b3d4-9cfa3d3109e8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3745,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "014c8198-81d2-4902-9e65-3309f3dd4afe")
+			(uuid "708f7253-8cca-41ce-b1c4-b0dd866609ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,14 +4056,14 @@
 	(footprint "Module:RaspberryPi_Pico_Common_THT"
 		(layer "F.Cu")
 		(uuid "7829fa5f-ce16-47ec-93ad-c4f0d253f9d5")
-		(at 334 30)
+		(at 37.22 -19.32)
 		(descr "Raspberry Pi Pico common (Pico & Pico W) through-hole footprint, supports Raspberry Pi Pico 2, default socketed model has height of 8.51mm, https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf")
 		(tags "module usb pcb antenna")
 		(property "Reference" "A1"
 			(at 20.6375 48.895 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "7bbbac79-67c7-4b0a-a9db-6eeb528d9dda")
+			(uuid "9a45078c-fcae-4ece-8a74-c63253b06c57")
 			(effects
 				(font
 					(size 1 1)
@@ -4076,7 +4076,7 @@
 			(at 8.89 52.07 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "dec53f14-0b71-4d35-bf4d-bf95844e67d3")
+			(uuid "2a7f32d5-03e5-4841-8a8b-4f462d23efb7")
 			(effects
 				(font
 					(size 1 1)
@@ -4088,7 +4088,7 @@
 			(at 8.89 24.13 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca7fb86c-0f46-415e-bc68-c26b63bcba9e")
+			(uuid "fb2450e8-246c-45ed-b449-bfa756969612")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4100,7 +4100,7 @@
 			(at 8.89 24.13 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4ba906af-21e0-475a-889b-268e3d25f6b3")
+			(uuid "4c06a4b8-46f2-4fe3-baa6-67184479297c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,8 +5441,8 @@
 			)
 			(polygon
 				(pts
-					(xy 340.49 79.119895) (xy 335.79 75.469895) (xy 335.79 71.13) (xy 349.99 71.13) (xy 349.99 75.469895)
-					(xy 345.29 79.119895) (xy 345.29 80.13) (xy 340.49 80.13)
+					(xy 43.71 29.799895) (xy 39.01 26.149895) (xy 39.01 21.81) (xy 53.21 21.81) (xy 53.21 26.149895)
+					(xy 48.51 29.799895) (xy 48.51 30.81) (xy 43.71 30.81)
 				)
 			)
 		)
@@ -5473,8 +5473,8 @@
 			)
 			(polygon
 				(pts
-					(xy 337.14 26.43) (xy 338.95 26.43) (xy 338.95 26.83) (xy 346.83 26.83) (xy 346.83 26.43) (xy 348.64 26.43)
-					(xy 348.64 6.93) (xy 337.14 6.93)
+					(xy 40.36 -22.89) (xy 42.17 -22.89) (xy 42.17 -22.49) (xy 50.05 -22.49) (xy 50.05 -22.89) (xy 51.86 -22.89)
+					(xy 51.86 -42.39) (xy 40.36 -42.39)
 				)
 			)
 		)
@@ -5619,7 +5619,7 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "97f1f5b8-c09a-4f3c-a726-16bc1951734d")
-		(at 190.3 106.925)
+		(at 107.75 -27)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW10"
@@ -6714,13 +6714,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "a9a09ebd-6b64-44c3-bcd0-143662da9d0b")
-		(at 74.75 7.75)
+		(at 110.75 8.5)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW12"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "e8059aea-5d0f-4754-a18b-d288d73f8f57")
+			(uuid "88f90526-4433-4019-9da4-f9369f32bb52")
 			(effects
 				(font
 					(size 1 1)
@@ -6731,7 +6731,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "68d37c2d-6d2a-479c-a1c1-5d8dda979232")
+			(uuid "32cc4454-34dc-4747-b8a3-b6c1edd230fd")
 			(effects
 				(font
 					(size 1 1)
@@ -6744,7 +6744,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "082ad334-1987-4201-b14c-41d3cb765322")
+			(uuid "6cc96a31-bee0-454d-b868-d03f1036597f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6757,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bed850ca-b6b6-49db-812f-3b84ae062329")
+			(uuid "98825f08-bda2-4d59-a156-474de357c45f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7068,7 +7068,7 @@
 	(footprint "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 		(layer "F.Cu")
 		(uuid "ab46cf5a-6f71-44f1-ba1b-8448d1aa668d")
-		(at 254.345 81.425)
+		(at 110.5 -2)
 		(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
 		(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
 		(property "Reference" "D4"
@@ -7337,13 +7337,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
 		(uuid "b4d59acd-f4b1-4c72-ba3c-9f32896739d6")
-		(at 74.75 -12.25)
+		(at 110.75 -11.5)
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW11"
 			(at 3.25 -2 0)
 			(layer "F.SilkS")
-			(uuid "c05dd80a-e087-4918-a71b-45112f9a8c42")
+			(uuid "9de9167d-6365-4e96-9906-e13947455472")
 			(effects
 				(font
 					(size 1 1)
@@ -7354,7 +7354,7 @@
 		(property "Value" "SW_Push"
 			(at 3.75 6.7 0)
 			(layer "F.Fab")
-			(uuid "870e1ad9-44b3-4b1a-9d29-f482992d9338")
+			(uuid "bb260d95-c0e3-47ad-a04d-62da9e87e7d8")
 			(effects
 				(font
 					(size 1 1)
@@ -7367,7 +7367,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "97672b3a-8b6b-44e0-bdb8-f5d13217de63")
+			(uuid "8df5774d-45dd-49a2-ad17-aa6576b720c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7380,7 +7380,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b14cbf70-cfcb-4845-8533-4b9d8f872ed9")
+			(uuid "a2796faa-551f-441d-a5a6-76a929f49e08")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7691,9 +7691,9 @@
 	(footprint "mux_breakout:MuxBreakout"
 		(layer "F.Cu")
 		(uuid "be62dcbc-216f-4969-8462-8741509875bd")
-		(at 242.15 118.83)
+		(at 61.75 5.5 90)
 		(property "Reference" "U1"
-			(at 0 -5 0)
+			(at 0 -5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9ed5aeb5-5b2e-4988-8b7e-8afb89c3e451")
@@ -7705,7 +7705,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 0 -3.5 0)
+			(at 0 -3.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "d19faa1e-87a0-41fe-adf8-7ee1d86dc489")
@@ -7717,7 +7717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7730,7 +7730,7 @@
 			)
 		)
 		(property "Description" "SparkFun CD74HC4067 breakout"
-			(at 0 0 0)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -7767,7 +7767,7 @@
 			(uuid "3a802b60-800f-407e-b683-4d9451dc86c6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 0)
+			(at 0 -2 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c1ca57c6-d371-4c22-a9ca-8f319323f67e")
@@ -7779,7 +7779,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at -19.05 0)
+			(at -19.05 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7790,7 +7790,7 @@
 			(uuid "c1b42a37-291f-498a-8797-9f852b1db9e4")
 		)
 		(pad "2" thru_hole circle
-			(at -16.51 0)
+			(at -16.51 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7802,7 +7802,7 @@
 			(uuid "13acc22d-436a-4ef0-9839-16219d10d7b9")
 		)
 		(pad "3" thru_hole circle
-			(at -13.97 0)
+			(at -13.97 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7814,7 +7814,7 @@
 			(uuid "652c6199-930c-4c87-b1d3-023aacf54d96")
 		)
 		(pad "4" thru_hole circle
-			(at -11.43 0)
+			(at -11.43 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7826,7 +7826,7 @@
 			(uuid "e85cf490-27a7-43ee-bbbe-7a08a3ade16c")
 		)
 		(pad "5" thru_hole circle
-			(at -8.89 0)
+			(at -8.89 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7838,7 +7838,7 @@
 			(uuid "2034d75a-9f91-48c8-884f-4ca27bb56195")
 		)
 		(pad "6" thru_hole circle
-			(at -6.35 0)
+			(at -6.35 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7850,7 +7850,7 @@
 			(uuid "3cdef152-665c-4527-b5bf-6a2cc8590469")
 		)
 		(pad "7" thru_hole circle
-			(at -3.81 0)
+			(at -3.81 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7862,7 +7862,7 @@
 			(uuid "ccb55c2b-bb2b-4116-a690-11f5c9db2368")
 		)
 		(pad "8" thru_hole circle
-			(at -1.27 0)
+			(at -1.27 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7874,7 +7874,7 @@
 			(uuid "a9049f63-b1cd-494b-abc3-711ce2e4e7cc")
 		)
 		(pad "9" thru_hole circle
-			(at 1.27 0)
+			(at 1.27 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7886,7 +7886,7 @@
 			(uuid "047aaaf9-18bf-445d-9349-3672d26d5986")
 		)
 		(pad "10" thru_hole circle
-			(at 3.81 0)
+			(at 3.81 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7898,7 +7898,7 @@
 			(uuid "9e15f56b-5265-4e9b-a807-e62b7a2ee02e")
 		)
 		(pad "11" thru_hole circle
-			(at 6.35 0)
+			(at 6.35 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7910,7 +7910,7 @@
 			(uuid "e14d3c7a-26c1-47af-9e96-535fb98f790a")
 		)
 		(pad "12" thru_hole circle
-			(at 8.89 0)
+			(at 8.89 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7922,7 +7922,7 @@
 			(uuid "926248df-d0f9-4c72-955d-8db31e7b0434")
 		)
 		(pad "13" thru_hole circle
-			(at 11.43 0)
+			(at 11.43 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7934,7 +7934,7 @@
 			(uuid "e5501b5a-da83-432b-893b-421b770fd3af")
 		)
 		(pad "14" thru_hole circle
-			(at 13.97 0)
+			(at 13.97 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7946,7 +7946,7 @@
 			(uuid "f14fec67-1e82-4d16-81ad-e450eb9c9c02")
 		)
 		(pad "15" thru_hole circle
-			(at 16.51 0)
+			(at 16.51 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7958,7 +7958,7 @@
 			(uuid "3b3aef39-6b9e-4ff8-8ac2-6d0a09f20e97")
 		)
 		(pad "16" thru_hole circle
-			(at 19.05 0)
+			(at 19.05 0 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7970,7 +7970,7 @@
 			(uuid "b95c5e6c-d863-4d5e-9635-a3c5b249a34a")
 		)
 		(pad "17" thru_hole circle
-			(at 8.89 15.24)
+			(at 8.89 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7981,7 +7981,7 @@
 			(uuid "356a4469-6e7d-48eb-b1c4-302168cad953")
 		)
 		(pad "18" thru_hole circle
-			(at 6.35 15.24)
+			(at 6.35 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -7992,7 +7992,7 @@
 			(uuid "9b09fefc-b489-4919-98ce-ec6ac452648a")
 		)
 		(pad "19" thru_hole circle
-			(at 3.81 15.24)
+			(at 3.81 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8003,7 +8003,7 @@
 			(uuid "cee082b4-8aba-47a8-b9c9-3c66ddf42764")
 		)
 		(pad "20" thru_hole circle
-			(at 1.27 15.24)
+			(at 1.27 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8014,7 +8014,7 @@
 			(uuid "f7515053-0f70-463d-a3c4-0623e059237b")
 		)
 		(pad "21" thru_hole circle
-			(at -1.27 15.24)
+			(at -1.27 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8025,7 +8025,7 @@
 			(uuid "5cc8fcb1-845e-402e-b6f9-352ac3edb7cb")
 		)
 		(pad "22" thru_hole circle
-			(at -3.81 15.24)
+			(at -3.81 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8036,7 +8036,7 @@
 			(uuid "a0d6808d-fd17-427d-b7b5-cd04e197d408")
 		)
 		(pad "23" thru_hole circle
-			(at -6.35 15.24)
+			(at -6.35 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8047,7 +8047,7 @@
 			(uuid "5452c832-adb9-422f-b55b-f570d29ab2f6")
 		)
 		(pad "24" thru_hole circle
-			(at -8.89 15.24)
+			(at -8.89 15.24 90)
 			(size 1.7 1.7)
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
@@ -8062,7 +8062,7 @@
 	(footprint "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 		(layer "F.Cu")
 		(uuid "cb852aef-280a-4303-9d14-c250b044fa38")
-		(at 254.345 73.875)
+		(at 121.76 8)
 		(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
 		(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
 		(property "Reference" "D3"
@@ -8331,13 +8331,13 @@
 	(footprint "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 		(layer "F.Cu")
 		(uuid "f7b4c8f7-1a30-440e-9676-fc39adcbf526")
-		(at 254.345 58.775)
+		(at 99.76 8)
 		(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
 		(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
 		(property "Reference" "D1"
 			(at 3.2385 -3.96 0)
 			(layer "F.SilkS")
-			(uuid "692596b2-d85a-45ce-8662-81ac1b540845")
+			(uuid "9b7f4192-8e44-4996-a6c9-6a5be2c8430f")
 			(effects
 				(font
 					(size 1 1)
@@ -8348,7 +8348,7 @@
 		(property "Value" "~"
 			(at 3.2385 3.96 0)
 			(layer "F.Fab")
-			(uuid "6741529b-e341-4446-903f-2c075f5f9d6a")
+			(uuid "16d7af56-0222-47ce-b6c6-7e077d0442dc")
 			(effects
 				(font
 					(size 1 1)
@@ -8361,7 +8361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "65281300-dea0-4ae4-a7c0-af01cb8ff7a0")
+			(uuid "820b71ba-0cc0-46a0-911e-c5cc9dc52f18")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8374,7 +8374,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69d0e930-af5b-416c-a8b1-a038f0d34f18")
+			(uuid "2fda04a3-7023-4443-b123-c8d62a5d15d0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8954,7 +8954,7 @@
 	(footprint "LED_THT:LED_D5.0mm-4_RGB_Wide_Pins"
 		(layer "F.Cu")
 		(uuid "fcda92e4-09b1-4c36-a8a2-42bc6f2b96ee")
-		(at 254.345 66.325)
+		(at 110.76 18)
 		(descr "LED, diameter 5.0mm, 4 pins, WP154A4, https://www.kingbright.com/attachments/file/psearch/000/00/00/L-154A4SUREQBFZGEW(Ver.11A).pdf")
 		(tags "LED diameter 5.0mm 2 pins diameter 5.0mm 3 pins diameter 5.0mm 4 pins RGB RGBLED")
 		(property "Reference" "D2"
