@@ -282,7 +282,7 @@
   "erc": {
     "erc_exclusions": [
       [
-        "pin_to_pin|457200|1104900|6c55e223-d9c5-48f9-bf75-b3d0f98acc35|9d61e6a4-94df-4b61-ba55-2acdf13688c3|/0abe4425-22e1-40ce-a5c7-3e2cf774c650|/0abe4425-22e1-40ce-a5c7-3e2cf774c650|/0abe4425-22e1-40ce-a5c7-3e2cf774c650",
+        "pin_to_pin|508000|977900|6c55e223-d9c5-48f9-bf75-b3d0f98acc35|9d61e6a4-94df-4b61-ba55-2acdf13688c3|/0abe4425-22e1-40ce-a5c7-3e2cf774c650|/0abe4425-22e1-40ce-a5c7-3e2cf774c650|/0abe4425-22e1-40ce-a5c7-3e2cf774c650",
         ""
       ]
     ],
@@ -578,7 +578,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "C:/Users/liamd/Downloads/oc.dsn",
       "step": "",
       "vrml": ""
     },
