@@ -7759,78 +7759,8 @@
 		(path "/d839fe55-2fe1-4cb9-b018-2ace7c9cfcdc")
 		(sheetname "/")
 		(sheetfile "oc.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.6785 -1.545)
-			(end 0.6785 -1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4fc11ddf-db53-4201-a74b-282825bdbeb9")
-		)
-		(fp_line
-			(start 0.6785 1.08)
-			(end 0.6785 1.545)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5d921169-ba43-4ed2-a758-0dd20e82d530")
-		)
-		(fp_arc
-			(start 0.6785 -1.54483)
-			(mid 3.496956 -2.978809)
-			(end 6.026315 -1.080827)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "22f2415d-ffed-4afa-8383-fcabb4a5a96a")
-		)
-		(fp_arc
-			(start 0.983816 -1.08)
-			(mid 3.238262 -2.5)
-			(end 5.492979 -1.080429)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e93185fe-42f7-46d6-b811-8233b460d3aa")
-		)
-		(fp_arc
-			(start 5.492979 1.080429)
-			(mid 3.238262 2.5)
-			(end 0.983816 1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "72a03283-abd3-46d4-a68e-915a1b37d7ac")
-		)
-		(fp_arc
-			(start 6.026315 1.080827)
-			(mid 3.496956 2.978808)
-			(end 0.6785 1.54483)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "42705fc2-9fbf-44c5-a248-5703a71e84ee")
-		)
 		(fp_line
 			(start -1.08 -3.25)
 			(end -1.08 3.25)
@@ -8188,7 +8118,7 @@
 		(descr "Generic 6mm SW tactile push button")
 		(tags "tact sw push 6mm")
 		(property "Reference" "SW11"
-			(at 3.25 -2 0)
+			(at 3.25 7.15 0)
 			(layer "F.SilkS")
 			(uuid "9de9167d-6365-4e96-9906-e13947455472")
 			(effects
@@ -8540,14 +8470,14 @@
 		(uuid "be62dcbc-216f-4969-8462-8741509875bd")
 		(at 61 1 90)
 		(property "Reference" "U1"
-			(at 0 -5 90)
+			(at -5 7.5 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "9ed5aeb5-5b2e-4988-8b7e-8afb89c3e451")
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -8614,7 +8544,7 @@
 			(uuid "3a802b60-800f-407e-b683-4d9451dc86c6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at -5 7.5 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "c1ca57c6-d371-4c22-a9ca-8f319323f67e")
@@ -8963,78 +8893,8 @@
 		(path "/57ab2db0-d835-4c80-984a-440460c2452c")
 		(sheetname "/")
 		(sheetfile "oc.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.6785 -1.545)
-			(end 0.6785 -1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "bb923b65-be07-43a3-8f6f-d708051161be")
-		)
-		(fp_line
-			(start 0.678499 1.08)
-			(end 0.678499 1.545)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "47fba157-fcfd-4293-be5e-27274812c4b3")
-		)
-		(fp_arc
-			(start 0.6785 -1.54483)
-			(mid 3.496956 -2.978809)
-			(end 6.026315 -1.080826)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5306f586-70c9-42f3-922e-3f5d7f95e82d")
-		)
-		(fp_arc
-			(start 0.983816 -1.08)
-			(mid 3.238262 -2.5)
-			(end 5.492979 -1.080428)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f77f571f-5527-45e0-b277-97bcd4034f4c")
-		)
-		(fp_arc
-			(start 5.492979 1.080429)
-			(mid 3.238262 2.5)
-			(end 0.983815 1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "607c319e-6792-4055-afaf-0cd80317c423")
-		)
-		(fp_arc
-			(start 6.026315 1.080827)
-			(mid 3.496956 2.978808)
-			(end 0.678499 1.54483)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8cb4aa40-239d-4b5a-bb5b-702534c14dbb")
-		)
 		(fp_line
 			(start -1.079999 -3.25)
 			(end -1.08 3.25)
@@ -9163,6 +9023,17 @@
 			(uuid "125069cf-34ef-4ff1-b046-0e05d2f88c1d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB_Wide_Pins.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(locked yes)
@@ -9326,78 +9197,8 @@
 		(path "/57826f10-25b6-41c7-8be2-537e9c806d0d")
 		(sheetname "/")
 		(sheetfile "oc.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.6785 -1.545)
-			(end 0.6785 -1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "06097e84-ab63-4d14-b3d5-32ebef4b1045")
-		)
-		(fp_line
-			(start 0.678499 1.08)
-			(end 0.678499 1.545)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "abfe05ed-d700-4453-953f-7b38b95f613f")
-		)
-		(fp_arc
-			(start 0.6785 -1.54483)
-			(mid 3.496956 -2.978809)
-			(end 6.026315 -1.080826)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "50728c80-399a-4319-8840-36399f5dddee")
-		)
-		(fp_arc
-			(start 0.983816 -1.08)
-			(mid 3.238262 -2.5)
-			(end 5.492979 -1.080428)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b12a85f7-920e-49d2-a8ee-bf392584aa7d")
-		)
-		(fp_arc
-			(start 5.492979 1.080429)
-			(mid 3.238262 2.5)
-			(end 0.983815 1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dd19cf86-63aa-4aeb-8aec-c456a7e6cc04")
-		)
-		(fp_arc
-			(start 6.026315 1.080827)
-			(mid 3.496956 2.978808)
-			(end 0.678499 1.54483)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7dd23f64-53ce-46b0-93af-ea967bf7f309")
-		)
 		(fp_line
 			(start -1.079999 -3.25)
 			(end -1.08 3.25)
@@ -9526,6 +9327,17 @@
 			(uuid "a6e3f9d1-3a61-4500-aa73-f761f5e7c7a9")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/LED_THT.3dshapes/LED_D5.0mm-4_RGB_Wide_Pins.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Button_Switch_THT:SW_PUSH_6mm"
 		(layer "F.Cu")
@@ -9938,78 +9750,8 @@
 		(path "/df81e864-37af-45e6-a77d-e022e133274d")
 		(sheetname "/")
 		(sheetfile "oc.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "2" "4")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_line
-			(start 0.6785 -1.545)
-			(end 0.6785 -1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "b4dadfa8-c9f4-494f-8238-1ba6534380b9")
-		)
-		(fp_line
-			(start 0.6785 1.08)
-			(end 0.6785 1.545)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "9ae9b5bd-f6fc-491a-82e3-bfb163a948a8")
-		)
-		(fp_arc
-			(start 0.6785 -1.54483)
-			(mid 3.496956 -2.978809)
-			(end 6.026315 -1.080827)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "c63fa211-e83a-4eec-ba57-7a4b08148087")
-		)
-		(fp_arc
-			(start 0.983816 -1.08)
-			(mid 3.238262 -2.5)
-			(end 5.492979 -1.080429)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "f51ef9a9-0167-4f35-bc50-0934ba80f7a7")
-		)
-		(fp_arc
-			(start 5.492979 1.080429)
-			(mid 3.238262 2.5)
-			(end 0.983816 1.08)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "21d54a09-1a2c-407b-8b3e-62a3bb033409")
-		)
-		(fp_arc
-			(start 6.026315 1.080827)
-			(mid 3.496956 2.978808)
-			(end 0.6785 1.54483)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8b853a80-ff52-4bdc-9e4a-0e8005213ed1")
-		)
 		(fp_line
 			(start -1.08 -3.25)
 			(end -1.08 3.25)
