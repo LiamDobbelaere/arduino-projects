@@ -76,7 +76,56 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|114490648|20155000|a9a09ebd-6b64-44c3-bcd0-143662da9d0b|fcda92e4-09b1-4c36-a8a2-42bc6f2b96ee",
+          ""
+        ],
+        [
+          "courtyards_overlap|115315000|-13145000|ab46cf5a-6f71-44f1-ba1b-8448d1aa668d|b4d59acd-f4b1-4c72-ba3c-9f32896739d6",
+          ""
+        ],
+        [
+          "courtyards_overlap|127583657|255000|00a147f9-47ac-4e4a-a385-a8ef071b7cf1|cb852aef-280a-4303-9d14-c250b044fa38",
+          ""
+        ],
+        [
+          "courtyards_overlap|92855000|255000|2fc78ccf-1a2a-457d-91d8-aa8832822fdf|f7b4c8f7-1a30-440e-9676-fc39adcbf526",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|107750000|-11650000|e995ede4-1500-4011-a118-e9231ff16020|ab46cf5a-6f71-44f1-ba1b-8448d1aa668d",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|107750000|19650000|2b8ba3e4-bc5c-47b5-b876-99e1f00c5cc8|fcda92e4-09b1-4c36-a8a2-42bc6f2b96ee",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|114250000|-11650000|fcde0e48-7a9b-4cc8-908d-c4abcba23da3|ab46cf5a-6f71-44f1-ba1b-8448d1aa668d",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|114250000|19650000|736b0016-066f-41a0-9035-a5556e4f958e|fcda92e4-09b1-4c36-a8a2-42bc6f2b96ee",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|127650000|1750000|af721941-120a-43ce-b70e-d8e4ef397289|cb852aef-280a-4303-9d14-c250b044fa38",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|127650000|6250000|08c173e8-ba8c-4d38-8a32-1289e7025545|cb852aef-280a-4303-9d14-c250b044fa38",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|94350000|1750000|e490704d-5288-4b03-8236-4fcc9213c13d|f7b4c8f7-1a30-440e-9676-fc39adcbf526",
+          ""
+        ],
+        [
+          "pth_inside_courtyard|94350000|6250000|238fa8c3-f8ab-4451-892f-89c86459fc3a|f7b4c8f7-1a30-440e-9676-fc39adcbf526",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -714,7 +763,7 @@
         "uuid": "0abe4425-22e1-40ce-a5c7-3e2cf774c650"
       }
     ],
-    "used_designators": "U1-3,A1-2,JP1-2,SW1-15,X1,#PWR1-57,Z1,SELECT1-2,HOME1,B1-3,Y1,J1-3,DOWN1,LB1,LEFT1,RB1,RIGHT1,START1,UP1,MUX_BREAKOUT1,WS1-4,C1,D1-4",
+    "used_designators": "U1-3,A1-2,JP1-2,SW1-15,X1,#PWR1-57,Z1,SELECT1-2,HOME1,B1-3,Y1,J1-3,DOWN1,LB1,LEFT1,RB1,RIGHT1,START1,UP1,H1-6,MUX_BREAKOUT1,WS1-4,C1,D1-4",
     "variants": []
   },
   "sheets": [
