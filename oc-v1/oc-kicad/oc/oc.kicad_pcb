@@ -9972,6 +9972,30 @@
 		(layer "Edge.Cuts")
 		(uuid "d6b4c3f4-22f0-41e5-b15a-249d5fd68616")
 	)
+	(gr_text "OpenController V1.0"
+		(at 31 77.5 0)
+		(layer "F.SilkS")
+		(uuid "d048ac45-12b0-4ece-a50b-384441372e98")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Liam Dobbelaere"
+		(at 33.2 80 0)
+		(layer "F.SilkS")
+		(uuid "fbae74ab-bd7b-4c7c-9ced-685380cb764c")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 171.15 46.25)
 		(end 169.2 48.2)
