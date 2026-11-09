@@ -650,7 +650,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "C:/Users/liamd/Downloads/oc.dsn",
       "step": "",
       "vrml": ""
